@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo-style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>TODOS</h1>
+        <input type="text" id="input-todo-js" class="input-todo" placeholder="할일을 추가해주세요" autofocus>
+        <div class="state-infor">
+            <span class="count-todo">총 <strong>0</strong> 개</span>
+            <ul class="state-menu">
+                <li><a  class="all selected" href="#">전체보기</a></li>
+                <li><a class="active" href="#active">해야할 일</a></li>
+                <li><a class="completed" href="#complite">완료한 일</a></li>
+            </ul>
+        </div>
+    </div>
+<script src="todo-script.js"></script>
+</body>
+</html>
